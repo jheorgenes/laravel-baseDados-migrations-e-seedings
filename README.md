@@ -58,3 +58,9 @@ Gerar seeders com o comando
 ```sh
 $ php artisan db:seed --class=NomedoSeederGeradp
 ```
+
+# Refazendo as migrations e os seeders ao mesmo tempo
+
+```sh
+$ php artisan migrate:refresh --seed --seeder=UsersTableSeeder
+```
